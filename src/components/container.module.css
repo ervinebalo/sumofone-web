@@ -1,0 +1,21 @@
+
+.separator {
+  position: relative;
+  display: block;
+  height: 1px;
+  /* background-color: #eaeaea; */
+  margin: 10px 0;
+
+  background-color: #9e3031;
+  width: 50%;
+  height: 2px;
+}
+
+.separator .is-red {
+  background-color: #9e3031;
+}
+
+.separator .is-small {
+  width: 22px;
+  height: 2px;
+}

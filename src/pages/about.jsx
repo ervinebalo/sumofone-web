@@ -9,7 +9,6 @@ import ervin_image from '../img/resources/ervin.jpg'
 import headerImage from '../img/resources/blog-header.jpg'
 
 import containerStyles from "../components/container.module.css"
-// import debugCSS from "../components/styles/debug.css"
 
 export default () => (
   <Layout>

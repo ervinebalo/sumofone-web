@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import lauren_and_ervin_image from '../img/resources/lauren_and_ervin.jpg'
 import lauren_image from '../img/resources/lauren.jpg'
 import ervin_image from '../img/resources/ervin.jpg'
-import headerImage from '../img/resources/web-header-wall.png'
+import headerImage from '../img/resources/blog-header.jpg'
 
 import containerStyles from "../components/container.module.css"
 // import debugCSS from "../components/styles/debug.css"
@@ -28,11 +28,18 @@ export default () => (
                     marginBottom: 0
                   }}
                 >
-                <h2
+                {/* <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
                     boxShadow: '0.5rem 0 0 #9e3031, -0.5rem 0 0 #9e3031',
                     backgroundColor: '#9e3031',
+                    color: 'white',
+                    padding: '1rem',
+                  }}
+                > */}
+                <h2
+                  className="has-text-weight-bold is-size-1"
+                  style={{
                     color: 'white',
                     padding: '1rem',
                   }}
@@ -50,7 +57,7 @@ export default () => (
 
     <div class="container">
       <div class="section">
-        <h2 class="title is-2 has-text-grey has-text-weight-light">
+        <h2 class="title is-2 has-text-grey-dark has-text-weight-light has-text-centered">
           BELIEVE WITH US THAT THE FUTURE CAN BE BETTER THAN TODAY.
         </h2>
       </div>
@@ -60,7 +67,7 @@ export default () => (
       <div class="container">
         <div class="columns is-multiline   ">
           <div class="column is-half">
-            <h3 class="title is-3 has-text-grey ">WHO WE ARE</h3>
+            <h3 class="title is-3 has-text-grey-darker ">WHO WE ARE</h3>
             <div className={containerStyles.separator}></div>
           <br/>
             <h2 class="subtitle has-text-weight-semibold">
@@ -84,7 +91,7 @@ export default () => (
             <img src={lauren_image} alt="Lauren Ebalo" />
           </div>
           <div class="column is-half">
-            <h3 class="title is-3 has-text-grey is-uppercase">Lauren</h3>
+            <h3 class="title is-3 has-text-grey-darker is-uppercase">Lauren</h3>
             <div className={containerStyles.separator}></div>
             <br/>
             <p>
@@ -100,7 +107,7 @@ export default () => (
       <div class="container">
         <div class="columns is-multiline ">
           <div class="column is-half">
-            <h3 class="title is-3 has-text-grey is-uppercase">Ervin</h3>
+            <h3 class="title is-3 has-text-grey-darker is-uppercase">Ervin</h3>
             <div className={containerStyles.separator}></div>
             <br/>
             <p>

@@ -47,10 +47,13 @@ const Navbar = class extends React.Component {
       <div id="navMenu" className="navbar-menu">
         <div className="navbar-start  ">
           <Link className="navbar-item is-capitalized has-text-weight-bold" to="/">
-            HOME
+            Home
           </Link>
           <Link className="navbar-item is-capitalized has-text-weight-bold" to="/about">
-            ABOUT
+            About
+          </Link>
+          <Link className="navbar-item is-capitalized has-text-weight-bold" to="/invest">
+            Invest
           </Link>
           {/* <Link className="navbar-item" to="/products">
             Products
@@ -66,7 +69,6 @@ const Navbar = class extends React.Component {
           </Link> */}
         </div>
         <div className="navbar-end has-text-centered">
-          
           <a
             className="navbar-item"
             href="https://instagram.com/sumofoneorg"

@@ -1,7 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo/fixed-logo-red-82.png'
 
 const Footer = class extends React.Component {
 
@@ -12,8 +9,8 @@ const Footer = class extends React.Component {
  
  render() {
    return (
-    <footer class="footer has-background-dark">
-      <div class="content has-text-centered has-text-light">
+    <footer className="footer has-background-dark">
+      <div className="content has-text-centered has-text-light">
         <p>Follow Us</p>
         <p>
           <a
@@ -22,8 +19,8 @@ const Footer = class extends React.Component {
             rel="noopener noreferrer"
             style={{padding: '10px', color: 'white'}}
           >
-            <span class="icon">
-              <i class="fab fa-instagram fa-2x"></i>
+            <span className="icon">
+              <i className="fab fa-instagram fa-2x"></i>
             </span>
           </a>
           
@@ -33,8 +30,8 @@ const Footer = class extends React.Component {
             rel="noopener noreferrer"
             style={{padding: '10px', color: 'white'}}
           >
-            <span class="icon">
-              <i class="fab fa-facebook fa-2x"></i>
+            <span className="icon">
+              <i className="fab fa-facebook fa-2x"></i>
             </span>
           </a>
         </p>

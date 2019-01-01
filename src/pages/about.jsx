@@ -12,7 +12,7 @@ import containerStyles from "../components/container.module.css"
 
 export default () => (
   <Layout>
-  <div class="">
+  <div>
     <div className="container">
         {/* <div className="section"> */}
           <div className="columns">
@@ -54,43 +54,43 @@ export default () => (
     
 
 
-    <div class="container">
-      <div class="section">
-        <h2 class="title is-2 has-text-grey-dark has-text-weight-light has-text-centered">
+    <div className="container">
+      <div className="section">
+        <h2 className="title is-2 has-text-grey-dark has-text-weight-light has-text-centered">
           BELIEVE WITH US THAT THE FUTURE CAN BE BETTER THAN TODAY.
         </h2>
       </div>
     </div>
 
-    <div class="section has-background-light">
-      <div class="container">
-        <div class="columns is-multiline   ">
-          <div class="column is-half">
-            <h3 class="title is-3 has-text-grey-darker ">WHO WE ARE</h3>
+    <div className="section has-background-light">
+      <div className="container">
+        <div className="columns is-multiline   ">
+          <div className="column is-half">
+            <h3 className="title is-3 has-text-grey-darker ">WHO WE ARE</h3>
             <div className={containerStyles.separator}></div>
           <br/>
-            <h2 class="subtitle has-text-weight-semibold">
+            <h2 className="subtitle has-text-weight-semibold">
               Hi, we are Ervin and Lauren Ebalo, the founders of the Sum of One.
             </h2>
             <p>
             We are people that believe we can do something to make a difference for someone. We both grew up in very family oriented homes that emphasized and exemplified what it meant to put other people’s needs before our own. So it only felt natural when we got married that we would carry on that legacy and do something to give back as well. Although the details of how and where we grew up were vastly different, the basic elements of who we are and the value we hold melded together in a pretty cool way, inspiring us to form the Sum of One. Our hope is that as we include our kids in these outreaches and fundraising, they will grow up to value and experience the same kind of life perspective.
             </p>
           </div>
-          <div class="column is-half">
+          <div className="column is-half">
             <img src={lauren_and_ervin_image} alt="Lauren and Ervin Ebalo" />
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
-      <div class="container">
-        <div class="columns is-multiline   ">
-          <div class="column is-half">
+    <div className="section">
+      <div className="container">
+        <div className="columns is-multiline   ">
+          <div className="column is-half">
             <img src={lauren_image} alt="Lauren Ebalo" />
           </div>
-          <div class="column is-half">
-            <h3 class="title is-3 has-text-grey-darker is-uppercase">Lauren</h3>
+          <div className="column is-half">
+            <h3 className="title is-3 has-text-grey-darker is-uppercase">Lauren</h3>
             <div className={containerStyles.separator}></div>
             <br/>
             <p>
@@ -102,11 +102,11 @@ export default () => (
     </div>
 
 
-    <div class="section has-background-light">
-      <div class="container">
-        <div class="columns is-multiline ">
-          <div class="column is-half">
-            <h3 class="title is-3 has-text-grey-darker is-uppercase">Ervin</h3>
+    <div className="section has-background-light">
+      <div className="container">
+        <div className="columns is-multiline ">
+          <div className="column is-half">
+            <h3 className="title is-3 has-text-grey-darker is-uppercase">Ervin</h3>
             <div className={containerStyles.separator}></div>
             <br/>
             <p>
@@ -114,7 +114,7 @@ export default () => (
             </p>
           </div>
 
-          <div class="column is-half">
+          <div className="column is-half">
             <img src={ervin_image} alt="Ervin Ebalo" />
           </div>
         </div>

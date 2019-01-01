@@ -1,7 +1,7 @@
 import React from "react"
 // import PropTypes from 'prop-types'
 // import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+
 import Layout from '../components/Layout'
 
 import headerImage from '../img/resources/blog-header.jpg'
@@ -84,8 +84,9 @@ export default () => (
           </div>
           <div className="column is-half">
             <iframe className="donately-donation-iframe" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allowtransparency="true" 
+                    title="donately"
                     style={{
                       backgroundColor: 'transparent',
                       border: '0px none transparent',

@@ -32,9 +32,9 @@ const Navbar = class extends React.Component {
   
   <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main-navigation">
     <div className="container">
-      <div className="navbar-brand">
+      <div className="navbar-brand" >
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" />
+          <img src={logo} alt="Sum of One logo" style={{ maxHeight: '40px', marginBottom: '0'}}/>
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -45,13 +45,13 @@ const Navbar = class extends React.Component {
       </div>
       <div id="navMenu" className="navbar-menu">
         <div className="navbar-start  ">
-          <Link className="navbar-item is-capitalized has-text-weight-bold" to="/">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/">
             Home
           </Link>
-          <Link className="navbar-item is-capitalized has-text-weight-bold" to="/about">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/about">
             About
           </Link>
-          <Link className="navbar-item is-capitalized has-text-weight-bold" to="/invest">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/invest">
             Invest
           </Link>
           {/* <Link className="navbar-item" to="/products">
@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
         </div>
         <div className="navbar-end has-text-centered">
           <a
-            className="navbar-item"
+            className="navbar-item is-hidden-touch"
             href="https://instagram.com/sumofoneorg"
             target="_blank"
             rel="noopener noreferrer"
@@ -80,7 +80,7 @@ const Navbar = class extends React.Component {
           </a>
           
           <a
-            className="navbar-item"
+            className="navbar-item is-hidden-touch"
             href="https://facebook.com/sumofoneorg"
             target="_blank"
             rel="noopener noreferrer"

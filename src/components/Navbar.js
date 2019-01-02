@@ -51,6 +51,9 @@ const Navbar = class extends React.Component {
           <Link className="navbar-item is-uppercase has-text-weight-bold" to="/about">
             About
           </Link>
+          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/projects">
+            Projects
+          </Link>
           <Link className="navbar-item is-uppercase has-text-weight-bold" to="/invest">
             Invest
           </Link>

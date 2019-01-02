@@ -16,7 +16,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="hero is-link is-fullheight-with-navbar" style={{
+        <section className="hero is-link is-fullheight-with-navbar has-background-white" style={{
                     backgroundImage: `url(${
                       heroImage
                     })`,

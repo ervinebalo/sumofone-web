@@ -17,8 +17,8 @@ const title = 'About'
 
 export default () => (
 <Layout>
-  <PageHeader headerImage={headerImage}
-              title={title} />
+  {/* <PageHeader headerImage={headerImage}
+              title={title} /> */}
     
     
 
@@ -26,7 +26,7 @@ export default () => (
                     author="" />
   
 
-  <div className="section has-background-light">
+  <div className="section has-background-white-ter">
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">

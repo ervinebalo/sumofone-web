@@ -27,10 +27,10 @@ export default class IndexPage extends React.Component {
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-uppercase" style={{
-                    boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
                     backgroundColor: 'rgba(255, 0, 0, 0.3)',
                     color: 'white',
                     padding: '1rem',
+                    marginTop: '15rem'
                   }}>
                 Every child deserves an education
               </h1>

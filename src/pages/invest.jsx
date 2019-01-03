@@ -17,8 +17,8 @@ const title = 'Invest'
 
 export default () => (
 <Layout>
-  <PageHeader headerImage={headerImage}
-              title={title} />
+  {/* <PageHeader headerImage={headerImage}
+              title={title} /> */}
 
   <PageHeaderQuote quote="AN INVESTMENT IN EDUCATION IS AN INVESTMENT IN OUR FUTURE"
                     author="David Wasinger" />

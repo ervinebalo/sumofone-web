@@ -16,8 +16,8 @@ const title = 'Projects'
 
 export default () => (
   <Layout>
-    <PageHeader headerImage={headerImage}
-                title={title} />
+    {/* <PageHeader headerImage={headerImage}
+                title={title} /> */}
     
 
     <div className="section has-background-light">

@@ -17,14 +17,14 @@ const title = 'Invest'
 
 export default () => (
 <Layout>
-  <PageHeader headerImage={headerImage}
-              title={title} />
+  {/* <PageHeader headerImage={headerImage}
+              title={title} /> */}
 
-  <PageHeaderQuote quote="AN INVESTMENT IN EDUCATION IS AN INVESTMENT IN OUR FUTURE"
-                    author="David Wasinger" />
+  {/* <PageHeaderQuote quote="AN INVESTMENT IN EDUCATION IS AN INVESTMENT IN OUR FUTURE"
+                    author="David Wasinger" /> */}
 
   {/* invest */}
-  <div className="section has-background-light">
+  <div className="section ">
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
@@ -78,7 +78,7 @@ export default () => (
     </div>
   </div>
 
-  <div className="section">
+  <div className="section has-background-white-ter">
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
@@ -105,7 +105,7 @@ export default () => (
   </div>
 
 
-  <div className="section has-background-light">
+  <div className="section ">
     <div className="container">
       <div className="columns is-multiline ">
         <div className="column is-half">

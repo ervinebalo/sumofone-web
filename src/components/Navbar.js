@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo/fixed-logo-red-82.png'
+import logo from '../img/logo/logo_w_name.svg'
 
 const Navbar = class extends React.Component {
 
@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
     <div className="container">
       <div className="navbar-brand" >
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Sum of One logo" style={{ maxHeight: '40px', marginBottom: '0'}}/>
+          <img src={logo} alt="Sum of One logo" style={{ width: '160px', marginBottom: '0px'}}/>
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -44,33 +44,31 @@ const Navbar = class extends React.Component {
         </div>
       </div>
       <div id="navMenu" className="navbar-menu">
-        <div className="navbar-start  ">
-          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/">
+        <div className="navbar-end  ">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" activeClassName="has-text-danger" to="/">
             Home
           </Link>
-          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/about">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" activeClassName="has-text-danger" to="/about">
             About
           </Link>
-          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/projects">
+          <Link className="navbar-item is-uppercase has-text-weight-bold" activeClassName="has-text-danger" to="/projects">
             Projects
           </Link>
-          <Link className="navbar-item is-uppercase has-text-weight-bold" to="/invest">
+          <div className="navbar-item">
+            <div className="field is-grouped is-grouped-multiline">
+              <p className="control">
+                <Link className="button is-primary is-small is-uppercase" activeClassName="button is-primary is-small is-uppercase" to="/invest">
+                  <strong>Invest</strong>
+                </Link>
+              </p>
+            </div>
+          </div>
+          {/* <Link className="navbar-item is-uppercase has-text-weight-bold button is-primary" to="/invest"
+                style={{marginTop: '15px'}} >
             Invest
-          </Link>
-          {/* <Link className="navbar-item" to="/products">
-            Products
-          </Link>
-          <Link className="navbar-item" to="/contact">
-            Contact
-          </Link>
-          <Link className="navbar-item" to="/contact/examples">
-            Form Examples
-          </Link>
-          <Link className="navbar-item" to="/test">
-            Test
           </Link> */}
         </div>
-        <div className="navbar-end has-text-centered">
+        {/* <div className="navbar-end has-text-centered">
           <a
             className="navbar-item is-hidden-touch"
             href="https://instagram.com/sumofoneorg"
@@ -92,7 +90,7 @@ const Navbar = class extends React.Component {
               <i className="fab fa-facebook fa-2x"></i>
             </span>
           </a>
-        </div>  
+        </div>   */}
       </div>
     </div>
   </nav>

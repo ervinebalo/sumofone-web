@@ -17,16 +17,16 @@ const title = 'About'
 
 export default () => (
 <Layout>
-  <PageHeader headerImage={headerImage}
-              title={title} />
+  {/* <PageHeader headerImage={headerImage}
+              title={title} /> */}
     
     
 
-  <PageHeaderQuote quote="BELIEVE WITH US THAT THE FUTURE CAN BE BETTER THAN TODAY"
-                    author="" />
+  {/* <PageHeaderQuote quote="BELIEVE WITH US THAT THE FUTURE CAN BE BETTER THAN TODAY"
+                    author="" /> */}
   
 
-  <div className="section has-background-light">
+  <div className="section ">
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
@@ -47,7 +47,7 @@ export default () => (
     </div>
   </div>
 
-  <div className="section">
+  <div className="section has-background-white-ter">
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
@@ -66,7 +66,7 @@ export default () => (
   </div>
 
 
-  <div className="section has-background-light">
+  <div className="section ">
     <div className="container">
       <div className="columns is-multiline ">
         <div className="column is-half">

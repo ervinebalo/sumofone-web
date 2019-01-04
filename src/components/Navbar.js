@@ -63,10 +63,9 @@ const Navbar = class extends React.Component {
               </p>
             </div>
           </div>
-          {/* <Link className="navbar-item is-uppercase has-text-weight-bold button is-primary" to="/invest"
-                style={{marginTop: '15px'}} >
-            Invest
-          </Link> */}
+          <Link className="navbar-item is-uppercase has-text-weight-bold" activeClassName="has-text-danger" to="/contact">
+            Contact
+          </Link>
         </div>
         {/* <div className="navbar-end has-text-centered">
           <a

@@ -36,7 +36,7 @@ export default () => (
           <div className="column is-one-third">
             <ProjectCard  title="Aeta Outreach"
                           year="2017"
-                          projectUrl="#"
+                          projectUrl="/projects/2017-aeta-outreach"
                           mainImage={img_aeta_outreach}
                           shortDescription="Some short description needs to go here. Something short and sweet. An appetizer but you also can understand the whole purpose."
                           />

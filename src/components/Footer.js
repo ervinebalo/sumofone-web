@@ -11,11 +11,11 @@ const Footer = class extends React.Component {
    return (
     <footer className="footer has-background-dark">
       <div className="container">
-        <div class="columns ">
-          <div class="column has-text-light">
+        <div className="columns ">
+          <div className="column has-text-light">
             <p>Copyright 2019</p>
           </div>
-          <div class="column has-text-right">
+          <div className="column has-text-right">
             {/* <p>Connect With Us</p> */}
             <p>
               <a

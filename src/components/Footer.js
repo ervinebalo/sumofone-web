@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
  
  render() {
    return (
-    <footer className="footer has-background-dark">
+    <footer className="footer has-background-dark" style={{paddingBottom: '1rem'}}>
       <div className="container">
         <div className="columns ">
           <div className="column has-text-light">

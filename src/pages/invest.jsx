@@ -3,17 +3,18 @@ import React from "react"
 // import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import PageHeader from '../components/PageHeader'
-import PageHeaderQuote from '../components/PageHeaderQuote'
+// import PageHeader from '../components/PageHeader'
+// import PageHeaderQuote from '../components/PageHeaderQuote'
 
-import headerImage from '../img/resources/blog-header.jpg'
+// import headerImage from '../img/resources/blog-header.jpg'
+
 import investImage from '../img/resources/invest.jpg'
 import volunteerImage from '../img/resources/volunteer.jpg'
 import fundraiseImage from '../img/resources/fundraise.jpg'
 
 import containerStyles from "../components/container.module.css"
 
-const title = 'Invest'
+// const title = 'Invest'
 
 export default () => (
 <Layout>

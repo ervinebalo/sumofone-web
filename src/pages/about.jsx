@@ -3,17 +3,17 @@ import React from "react"
 // import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-import PageHeader from '../components/PageHeader'
-import PageHeaderQuote from '../components/PageHeaderQuote'
+// import PageHeader from '../components/PageHeader'
+// import PageHeaderQuote from '../components/PageHeaderQuote'
 
 import lauren_and_ervin_image from '../img/resources/lauren_and_ervin.jpg'
 import lauren_image from '../img/resources/lauren.jpg'
 import ervin_image from '../img/resources/ervin.jpg'
-import headerImage from '../img/resources/blog-header.jpg'
 
 import containerStyles from "../components/container.module.css"
+// import headerImage from '../img/resources/blog-header.jpg'
 
-const title = 'About'
+// const title = 'About'
 
 export default () => (
 <Layout>

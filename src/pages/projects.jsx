@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/Layout'
 
-import PageHeader from '../components/PageHeader'
+// import PageHeader from '../components/PageHeader'
 import ProjectCard from '../components/ProjectCard'
 
 // images
@@ -11,8 +11,8 @@ import img_school_build_out from '../img/resources/school_build_out.jpg'
 import img_aeta_outreach_2013 from '../img/resources/aeta_outreach_2013.jpg'
 import img_medical_mission_2012 from '../img/resources/medical_mission_2012.jpg'
 
-import headerImage from '../img/resources/blog-header.jpg'
-const title = 'Projects'
+// import headerImage from '../img/resources/blog-header.jpg'
+// const title = 'Projects'
 
 export default () => (
   <Layout>

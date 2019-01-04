@@ -2,8 +2,11 @@ import React from "react"
 import Layout from '../../components/Layout'
 
 import PageHeaderQuote from '../../components/PageHeaderQuote'
-import lauren_image from '../../img/resources/lauren.jpg'
-import ervin_image from '../../img/resources/ervin.jpg'
+// images
+import imageTheProblem from '../../img/resources/2018-19-feeding-program/the-problem.jpg'
+import imageTheSolution from '../../img/resources/2018-19-feeding-program/the-solution.jpg'
+import imageTheDetails from '../../img/resources/2018-19-feeding-program/the-details.jpg'
+import imageFunRun from '../../img/resources/2018-19-feeding-program/funrun.jpg'
 
 import containerStyles from "../../components/container.module.css"
 
@@ -24,7 +27,7 @@ export default () => (
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
-          <img src={lauren_image} alt="Lauren Ebalo" />
+          <img src={imageTheProblem} alt="The Problem" />
         </div>
         <div className="column is-half">
           <h3 className="title is-3 has-text-grey-darker is-uppercase">The Problem</h3>
@@ -70,7 +73,7 @@ export default () => (
         </div>
 
         <div className="column is-half">
-          <img src={ervin_image} alt="Ervin Ebalo" />
+          <img src={imageTheSolution} alt="The Solution" />
         </div>
       </div>
     </div>
@@ -81,7 +84,7 @@ export default () => (
     <div className="container">
       <div className="columns is-multiline   ">
         <div className="column is-half">
-          <img src={lauren_image} alt="Lauren Ebalo" />
+          <img src={imageTheDetails} alt="The Details" />
         </div>
         <div className="column is-half">
           <h3 className="title is-3 has-text-grey-darker is-uppercase">The Details</h3>
@@ -99,6 +102,29 @@ export default () => (
             <li>$10.00/mo</li>
             <li>$85.00/yr</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Fun Run Promo */}
+  <div className="section ">
+    <div className="container">
+      <div className="columns is-multiline ">
+        <div className="column is-half">
+          <h3 className="title is-3 has-text-grey-darker is-uppercase">Fun Run</h3>
+          <div className={containerStyles.separator}></div>
+          <br/>
+          <p>
+            We are hosting an amazing charity event on <strong>November 3, 2018</strong> and we would love for you to be a part. 
+            Bring out the whole family and support us at our <strong>first annual 5K Fun Run!</strong> 
+            {/* For more information on the 
+            Fun Run and how you can be a part, please visit us here. */}
+          </p>
+        </div>
+
+        <div className="column is-half">
+          <img src={imageFunRun} alt="2018 Fun Run" />
         </div>
       </div>
     </div>

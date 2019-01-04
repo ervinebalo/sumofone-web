@@ -3,10 +3,6 @@ import Layout from '../../components/Layout'
 
 import PageHeaderQuote from '../../components/PageHeaderQuote'
 // images
-import imageTheProblem from '../../img/resources/projects/2018-19-feeding-program/the-problem.jpg'
-import imageTheSolution from '../../img/resources/projects/2018-19-feeding-program/the-solution.jpg'
-import imageTheDetails from '../../img/resources/projects/2018-19-feeding-program/the-details.jpg'
-import imageFunRun from '../../img/resources/projects/2018-19-feeding-program/funrun.jpg'
 
 import containerStyles from "../../components/container.module.css"
 

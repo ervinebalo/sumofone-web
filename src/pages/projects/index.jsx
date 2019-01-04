@@ -45,7 +45,7 @@ export default () => (
           <div className="column is-one-third"> 
             <ProjectCard  title="School Build Out"
                           year="2015"
-                          projectUrl="#"
+                          projectUrl="/projects/2015-school-build-out"
                           mainImage={img_school_build_out}
                           shortDescription="Some short description needs to go here. Something short and sweet. An appetizer but you also can understand the whole purpose."
                           />
@@ -55,7 +55,7 @@ export default () => (
           <div className="column is-one-third"> 
             <ProjectCard  title="Aeta Outreach"
                           year="2013"
-                          projectUrl="#"
+                          projectUrl="/projects/2013-aeta-outreach"
                           mainImage={img_aeta_outreach_2013}
                           shortDescription="Some short description needs to go here. Something short and sweet. An appetizer but you also can understand the whole purpose."
                           />
@@ -65,7 +65,7 @@ export default () => (
           <div className="column is-one-third"> 
             <ProjectCard  title="Medical Mission"
                           year="2012"
-                          projectUrl="#"
+                          projectUrl="/projects/2012-medical-mission"
                           mainImage={img_medical_mission_2012}
                           shortDescription="Some short description needs to go here. Something short and sweet. An appetizer but you also can understand the whole purpose."
                           />  

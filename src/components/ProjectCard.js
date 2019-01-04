@@ -20,11 +20,11 @@ export default props => (
       </div>
     </div>
     <footer className="card-footer">
-      <p className="card-footer-item">
+      <div className="card-footer-item">
         <span>
           <a href={props.projectUrl}>Learn More</a>
         </span>
-      </p>
+      </div>
     </footer>
   </div>
 )

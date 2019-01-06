@@ -37,7 +37,7 @@ export default () => (
           </p>
           <br/>
           <p>
-            If you would like more information on the programs or special projects we are currently involved with, please visit our contact page and send us a message.
+            If you would like more information on the programs or special projects we are currently involved with, please visit our <a href="/contact">contact page and send us a message</a>.
           </p>
           <br/>
           <img src={investImage} alt="Invest" />
@@ -99,7 +99,7 @@ export default () => (
           </p>
           <br/>
           <p>
-            If you are interested in filling any of those volunteer positions please go to our Contact page and send us a message.
+            If you are interested in filling any of those volunteer positions please go to our <a href="/contact">Contact page and send us a message</a>.
           </p>
         </div>
       </div>
@@ -119,8 +119,8 @@ export default () => (
           <div className={containerStyles.separator}></div>
           <br/>
           <p>
-          Love what we’re doing? Want to help us spread the word? Fundraisers are a great place to start! From Facebook Fundraising to garage sales, dance events to 5K’s and casino nights, we would love to help you get started.
-          Contact us for more information or even to share a great idea you have about how we could fundraise.
+          Love what we’re doing? Want to help us spread the word? Fundraisers are a great place to start! From Facebook Fundraising to garage sales, dance events to 5K’s and casino nights, we would love to help you get started. &nbsp;
+          <a href="/contact">Contact us</a> for more information or even to share a great idea you have about how we could fundraise.
           </p>
         </div>
       </div>

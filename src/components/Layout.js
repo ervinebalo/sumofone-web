@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
     render={data => (
       <div>
         <Helmet>
-          <html lang="en" />
+          <html lang="en" className="has-navbar-fixed-top"/>
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
           
@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <Navbar />
-        <div style={{marginTop: '58.5px'}}>{children}</div>
+        <div >{children}</div>
         <Footer />
       </div>
     )}

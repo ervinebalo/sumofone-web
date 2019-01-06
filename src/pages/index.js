@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 // import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-import heroImage from '../img/resources/kids1.jpg'
+import heroImage from '../img/resources/soo_landing_03.jpg'
 // import debugCSS from "../components/styles/debug.css"
 import containerStyles from "../components/container.module.css"
  

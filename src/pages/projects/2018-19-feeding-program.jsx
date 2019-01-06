@@ -56,6 +56,10 @@ export default () => (
     <div className="container">
       <div className="columns is-multiline ">
         <div className="column is-half">
+          <img src={imageTheSolution} alt="The Solution" />
+        </div>
+
+        <div className="column is-half">
           <h3 className="title is-3 has-text-grey-darker is-uppercase">The Solution</h3>
           <div className={containerStyles.separator}></div>
           <br/>
@@ -72,9 +76,6 @@ export default () => (
           </p>
         </div>
 
-        <div className="column is-half">
-          <img src={imageTheSolution} alt="The Solution" />
-        </div>
       </div>
     </div>
   </div>
@@ -112,6 +113,10 @@ export default () => (
     <div className="container">
       <div className="columns is-multiline ">
         <div className="column is-half">
+          <img src={imageFunRun} alt="2018 Fun Run" />
+        </div>
+        
+        <div className="column is-half">
           <h3 className="title is-3 has-text-grey-darker is-uppercase">Fun Run</h3>
           <div className={containerStyles.separator}></div>
           <br/>
@@ -123,9 +128,6 @@ export default () => (
           </p>
         </div>
 
-        <div className="column is-half">
-          <img src={imageFunRun} alt="2018 Fun Run" />
-        </div>
       </div>
     </div>
   </div>

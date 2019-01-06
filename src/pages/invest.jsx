@@ -79,6 +79,7 @@ export default () => (
     </div>
   </div>
 
+  {/* Volunteer */}
   <div className="section has-background-white-ter">
     <div className="container">
       <div className="columns is-multiline   ">
@@ -105,10 +106,14 @@ export default () => (
     </div>
   </div>
 
-
+  {/* Fundraise */}
   <div className="section ">
     <div className="container">
       <div className="columns is-multiline ">
+        <div className="column is-half">
+          <img src={fundraiseImage} alt="Fundraise" />
+        </div>
+
         <div className="column is-half">
           <h3 className="title is-3 has-text-grey-darker is-uppercase">Fundraise</h3>
           <div className={containerStyles.separator}></div>
@@ -117,10 +122,6 @@ export default () => (
           Love what we’re doing? Want to help us spread the word? Fundraisers are a great place to start! From Facebook Fundraising to garage sales, dance events to 5K’s and casino nights, we would love to help you get started.
           Contact us for more information or even to share a great idea you have about how we could fundraise.
           </p>
-        </div>
-
-        <div className="column is-half">
-          <img src={fundraiseImage} alt="Fundraise" />
         </div>
       </div>
     </div>

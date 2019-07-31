@@ -9,22 +9,26 @@ export default props => (
     </div>
     <div className="card-content">
       <div className="media">
-        <div className="media-content">
-          <p className="title is-4">{props.title}</p>
+        <div className="media-content text-center">
+          <p className="title is-4 text-center">
+            <a href={props.projectUrl}>
+            {props.title}
+            </a>
+          </p>
           <p className="subtitle is-6">{props.year}</p>
         </div>
       </div>
 
-      <div className="content">
+      {/* <div className="content">
         {props.shortDescription}
-      </div>
+      </div> */}
     </div>
-    <footer className="card-footer">
+    {/* <footer className="card-footer">
       <div className="card-footer-item">
         <span>
           <a href={props.projectUrl}>Learn More</a>
         </span>
       </div>
-    </footer>
+    </footer> */}
   </div>
 )

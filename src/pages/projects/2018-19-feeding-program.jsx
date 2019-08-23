@@ -122,7 +122,7 @@ export default () => (
           <br/>
           <p>
             We are hosting an amazing charity event on <strong>November 2, 2019</strong> and we would love for you to be a part. 
-            Bring out the whole family and support us at our <strong>second annual 5K Fun Run!</strong> 
+            Bring out the whole family and support us at our <a href="https://funrun.sumofone.org"><strong>second annual 5K Fun Run!</strong></a> 
             {/* For more information on the 
             Fun Run and how you can be a part, please visit us here. */}
           </p>

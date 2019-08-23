@@ -6,7 +6,7 @@ import PageHeaderQuote from '../../components/PageHeaderQuote'
 import imageTheProblem from '../../img/resources/projects/2018-19-feeding-program/the-problem.jpg'
 import imageTheSolution from '../../img/resources/projects/2018-19-feeding-program/the-solution.jpg'
 import imageTheDetails from '../../img/resources/projects/2018-19-feeding-program/the-details.jpg'
-import imageFunRun from '../../img/resources/projects/2018-19-feeding-program/funrun.jpg'
+import imageFunRun from '../../img/resources/projects/2018-19-feeding-program/2019FunRun.png'
 
 import containerStyles from "../../components/container.module.css"
 
@@ -113,7 +113,7 @@ export default () => (
     <div className="container">
       <div className="columns is-multiline ">
         <div className="column is-half">
-          <img src={imageFunRun} alt="2018 Fun Run" />
+          <img src={imageFunRun} alt="2019 Fun Run" />
         </div>
         
         <div className="column is-half">
@@ -121,8 +121,8 @@ export default () => (
           <div className={containerStyles.separator}></div>
           <br/>
           <p>
-            We are hosting an amazing charity event on <strong>November 3, 2018</strong> and we would love for you to be a part. 
-            Bring out the whole family and support us at our <strong>first annual 5K Fun Run!</strong> 
+            We are hosting an amazing charity event on <strong>November 2, 2019</strong> and we would love for you to be a part. 
+            Bring out the whole family and support us at our <strong>second annual 5K Fun Run!</strong> 
             {/* For more information on the 
             Fun Run and how you can be a part, please visit us here. */}
           </p>

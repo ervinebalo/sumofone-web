@@ -26,7 +26,7 @@ export default () => (
           {/* project 1 */}
           <div className="column is-one-third">
             <ProjectCard  title="Feeding Program"
-                          year="2018/2019"
+                          year="2018-2020"
                           projectUrl="/projects/2018-19-feeding-program"
                           mainImage={img_feedging_program}
                           shortDescription="Some short description needs to go here. Something short and sweet. An appetizer but you also can understand the whole purpose."
